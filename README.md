@@ -8,7 +8,7 @@
 
 XOR is a Swift Library that allows you to compute the [eXclusive OR](https://en.wikipedia.org/wiki/Exclusive_or) of two Integer arrays.
 
-[Documentation](https://alexaubry.github.io/XOR/docs/)
+[Documentation](https://alexaubry.github.io/XOR/)
 
 ## What is XOR ?
 
