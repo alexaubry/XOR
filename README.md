@@ -38,14 +38,6 @@ Add this line to your `Podfile`:
 pod 'XOR' ~> '1.0.0'
 ~~~
 
-### Carthage
-
-Add this line to your `Cartfile`:
-
-~~~
-github "alexaubry/XOR" ~> 1.0
-~~~
-
 ## Usage
 
 You can compute the XOR of any Array whose `Element` type conform to Swift's native `Integer` protocol (that is `Int`, `UInt8`, ...).

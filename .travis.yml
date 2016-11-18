@@ -1,10 +1,15 @@
 os:
-- linux
-- osx
+  - linux
+  - osx
 language: generic
 sudo: required
 dist: trusty
 osx_image: xcode8
 script:
-- eval "$(curl -sL https://swift.vapor.sh/ci)"
-- eval "$(curl -sL https://swift.vapor.sh/codecov)"
+  - eval "$(curl -sL https://swift.vapor.sh/ci)"
+  - eval "$(curl -sL https://swift.vapor.sh/codecov)"
+deploy:
+  provider: script
+  script: ./scripts/push.sh
+  on:
+    tags: true

@@ -25,7 +25,9 @@
 /* Begin PBXFileReference section */
 		5E8FF0A31DDF5E5900D85F36 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		5E8FF0A41DDF5E5900D85F36 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5E93602B1DDFAD7600EAE09B /* push.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = push.sh; sourceTree = "<group>"; };
 		5EC1D5881DDF8B8100E5D17F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5EC1D5891DDF9BF300E5D17F /* XOR.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = XOR.podspec; sourceTree = "<group>"; };
 		OBJ_12 /* XORTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XORTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* XOR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XOR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_15 /* XORTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = XORTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,10 +58,19 @@
 			isa = PBXGroup;
 			children = (
 				5E8FF0A31DDF5E5900D85F36 /* .travis.yml */,
+				5EC1D5891DDF9BF300E5D17F /* XOR.podspec */,
 				5E8FF0A41DDF5E5900D85F36 /* README.md */,
 				5EC1D5881DDF8B8100E5D17F /* .gitignore */,
 			);
 			name = Meta;
+			sourceTree = "<group>";
+		};
+		5E93602A1DDFAD7600EAE09B /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				5E93602B1DDFAD7600EAE09B /* push.sh */,
+			);
+			path = scripts;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
@@ -93,6 +104,7 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				5E8FF0A21DDF5E4800D85F36 /* Meta */,
+				5E93602A1DDFAD7600EAE09B /* scripts */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_13 /* Products */,
